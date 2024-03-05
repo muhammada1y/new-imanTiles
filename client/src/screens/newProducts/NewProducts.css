@@ -1,0 +1,44 @@
+/* @dev  saeed barcha */
+/* @file Decorate.jsx */
+
+
+/* @tag --Container */
+.galleryWrapper{
+    /* background-color: #3C4C5D;  */
+}
+
+/* @tag --Container/h2 */
+.titleGallery{
+    color: var(--mainThemeColor);
+    font-size: 50px; 
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+/* @tag --Container/h2/Row/Col/image */
+.imageContainer {
+  color: red;
+  position: relative;
+  /* width: 100%; */
+}
+
+/* @tag --Container/h2/Row/Col/icon */
+.newIcon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  top:22px;
+  right: 10px;
+}
+
+/*---------media query-----------*/
+@media screen and (max-width: 992px) {
+   /* @tag --Container/h2 */
+    .titleGallery{
+      font-size: 36px;
+    }
+      
+      }

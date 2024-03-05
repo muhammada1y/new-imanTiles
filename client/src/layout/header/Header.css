@@ -1,0 +1,43 @@
+.header{
+background-color: var(--mainBgColor);
+/* position: fixed; */
+/* top: 0px; */
+
+}
+.nav-link {
+    color: white !important;
+}
+
+/* Hover state */
+.nav-link:hover {
+    color:var(--mainThemeColor) !important;
+}
+
+/* Active state */
+.nav-link.active {
+    color:var(--mainThemeColor) !important;
+}
+
+/* For dropdown items */
+.nav-dropdown-item {
+    color: white !important;
+}
+
+.nav-dropdown-item:hover {
+    color: yellow !important;
+}
+
+.nav-dropdown-item.active {
+    color: yellow !important;
+}
+.navbar-toggler{
+color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: none;
+width: 20px;
+}
+.navbar-toggler-icon{
+    color: aliceblue;  
+}
